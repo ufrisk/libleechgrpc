@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package leechrpc;
+
+service LeechRpc {
+  // Mirrors the MSRPC call: LeechRpc_ReservedSubmitCommand
+  rpc ReservedSubmitCommand(SubmitCommandRequest) returns (SubmitCommandResponse);
+}
+
+message SubmitCommandRequest {
+  bytes pbIn = 1;
+}
+
+message SubmitCommandResponse {
+  bytes pbOut = 1;
+}
