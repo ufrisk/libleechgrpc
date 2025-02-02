@@ -169,6 +169,7 @@
     <ClInclude Include="leechgrpc.h" />
     <ClInclude Include="oscompatibility.h" />
     <ClInclude Include="util.h" />
+    <ClInclude Include="version.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="generated\leechgrpc.grpc.pb.cc" />
@@ -177,6 +178,9 @@
     <ClCompile Include="leechgrpc_server.cc" />
     <ClCompile Include="oscompatibility.cc" />
     <ClCompile Include="util.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libleechgrpc.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

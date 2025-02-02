@@ -44,6 +44,9 @@
     <ClInclude Include="generated\leechgrpc.pb.h">
       <Filter>Header Files\generated</Filter>
     </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="generated\leechgrpc.grpc.pb.cc">
@@ -64,5 +67,10 @@
     <ClCompile Include="oscompatibility.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libleechgrpc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
